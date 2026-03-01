@@ -1,0 +1,130 @@
+/* =============================================
+   CSS VARIABLES — KittyTasks Design System
+   ============================================= */
+
+:root {
+  /* === Brand Colors === */
+  --accent: #7c6ff7;
+  --accent-light: #9d94f8;
+  --accent-dark: #5a52d5;
+  --accent-glow: rgba(124, 111, 247, 0.3);
+
+  --success: #4ade80;
+  --success-dark: #22c55e;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --info: #60a5fa;
+
+  /* === Difficulty Colors === */
+  --easy: #4ade80;
+  --normal: #fbbf24;
+  --hard: #f87171;
+
+  /* === Light Theme === */
+  --bg-primary: #f8f7ff;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f0effe;
+  --bg-card: #ffffff;
+  --bg-hover: #f0effe;
+  --bg-overlay: rgba(0, 0, 0, 0.4);
+
+  --text-primary: #1a1830;
+  --text-secondary: #4a4669;
+  --text-muted: #9990c8;
+  --text-inverse: #ffffff;
+
+  --border-color: #e5e1ff;
+  --border-subtle: #f0effe;
+
+  --shadow-sm: 0 1px 3px rgba(124, 111, 247, 0.08);
+  --shadow-md: 0 4px 16px rgba(124, 111, 247, 0.12);
+  --shadow-lg: 0 8px 32px rgba(124, 111, 247, 0.16);
+  --shadow-xl: 0 16px 48px rgba(124, 111, 247, 0.2);
+
+  --shadow-card: 0 2px 12px rgba(124, 111, 247, 0.1);
+  --shadow-card-hover: 0 8px 24px rgba(124, 111, 247, 0.2);
+
+  /* === Navbar === */
+  --nav-bg: rgba(255, 255, 255, 0.85);
+  --nav-border: rgba(124, 111, 247, 0.15);
+
+  /* === Radius === */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* === Spacing === */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* === Typography === */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Poppins', var(--font-sans);
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+
+  /* === Transitions === */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-spring: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* === Z-index === */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-cat: 50;
+
+  /* === Layout === */
+  --nav-height: 64px;
+  --sidebar-width: 240px;
+  --content-max: 1200px;
+}
+
+/* === Dark Theme === */
+[data-theme="dark"] {
+  --bg-primary: #0f0e1a;
+  --bg-secondary: #1a1830;
+  --bg-tertiary: #231f3a;
+  --bg-card: #1e1c32;
+  --bg-hover: #2a2644;
+  --bg-overlay: rgba(0, 0, 0, 0.7);
+
+  --text-primary: #f0effe;
+  --text-secondary: #b8b3e8;
+  --text-muted: #6b6699;
+  --text-inverse: #1a1830;
+
+  --border-color: #2d2850;
+  --border-subtle: #231f3a;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 8px 24px rgba(124, 111, 247, 0.25);
+
+  --nav-bg: rgba(26, 24, 48, 0.9);
+  --nav-border: rgba(124, 111, 247, 0.2);
+}
